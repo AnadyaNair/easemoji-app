@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import styles2 from "../styles/title.module.css";
+import styles_smileys from "../styles/smileys.module.css";
 import Link from "next/link";
 
 export default function Home() {
@@ -92,6 +93,32 @@ export default function Home() {
           </Link>
         </ul>
       </div>
+
+      <div className={styles2.headingContainer}>
+        <h3>Smileys</h3>
+      </div>
+
+      <div className={styles_smileys.smileyDiv}>
+        <ul>
+          <li>😀</li>
+          <span></span>
+          <li>😁</li>
+          <span></span>
+          <li>😂</li>
+          <span></span>
+          <li>🤣</li>
+          <span></span>
+          <li>😃</li>
+          <span></span>
+          <li>😄</li>
+          <span></span>
+          <li>😅</li>
+          <span></span>
+          <li>😆</li>
+          <span></span>
+          <li>😉</li>
+        </ul>
+      </div>
       {/* <main className={styles.main}>
         <h1 className={styles.title}>
           Welcome to <a href="https://nextjs.org">Next.js!</a>
@@ -136,7 +163,7 @@ export default function Home() {
       <footer className={styles.footer}>
         <p>
           Star the project on{" "}
-          <Link href="https://github.com/AnadyaNai/easemoji-app">
+          <Link href="https://github.com/AnadyaNair/easemoji-app">
             <a>GitHub</a>
           </Link>
           and do leave a review!

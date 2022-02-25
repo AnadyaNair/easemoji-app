@@ -15,7 +15,8 @@
 }
 
 .titleSection a {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  color: #eb5757;
 }
 
 .uppertagSection {
@@ -60,5 +61,11 @@
 }
 
 .headingContainer h3 {
-  padding-left: 325px;
+  /* padding-left: 325px; */
+  text-align: center;
+  /* font-weight: 500; */
+}
+
+.headingContainer{
+  margin-top: 80px;
 }

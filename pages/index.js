@@ -21,7 +21,7 @@ export default function Home() {
       <div className={styles.projectStatus}>🚧 Work In Progress. 🚧</div>
 
       <div className={styles2.titleSection}>
-        <h2>Welcome to Easemoji</h2>
+        <h3>👋 Welcome to Easemoji</h3>
 
         <p className={styles2.p}>
           Copying emoticons made easy. Click on the emoticon to
@@ -97,7 +97,7 @@ export default function Home() {
       </div>
 
       <div className={styles2.headingContainer}>
-        <h3 id="smileys">Smileys</h3>
+        <h3 id="smileys">The Smileys</h3>
       </div>
 
       <div className={styles_smileys.smileyDiv}>
@@ -185,23 +185,86 @@ export default function Home() {
         </ul>
 
         <ul>
-          <li>😊</li>
+          <li
+            id="emoji10"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji10.textContent);
+            }}
+          >
+            😊
+          </li>
           <span></span>
-          <li>😋</li>
+          <li
+            id="emoji11"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji11.textContent);
+            }}
+          >
+            😋
+          </li>
           <span></span>
-          <li>😎</li>
+          <li
+            id="emoji12"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji12.textContent);
+            }}
+          >
+            😎
+          </li>
           <span></span>
-          <li>😍</li>
+          <li
+            id="emoji13"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji13.textContent);
+            }}
+          >
+            😍
+          </li>
           <span></span>
-          <li>😘</li>
+          <li
+            id="emoji14"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji14.textContent);
+            }}
+          >
+            😘
+          </li>
           <span></span>
-          <li>🥰</li>
+          <li
+            id="emoji15"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji15.textContent);
+            }}
+          >
+            🥰
+          </li>
           <span></span>
-          <li>😗</li>
+          <li
+            id="emoji16"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji16.textContent);
+            }}
+          >
+            😗
+          </li>
           <span></span>
-          <li>😙</li>
+          <li
+            id="emoji17"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji17.textContent);
+            }}
+          >
+            😙
+          </li>
           <span></span>
-          <li>😚</li>
+          <li
+            id="emoji18"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji18.textContent);
+            }}
+          >
+            😚
+          </li>
         </ul>
       </div>
       {/* <main className={styles.main}>

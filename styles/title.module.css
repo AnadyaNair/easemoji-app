@@ -80,3 +80,18 @@
 .headingContainer {
   margin-top: 50px;
 }
+
+.newTag {
+  width: 150px;
+  height: 30px;
+  background-color: #eb5757;
+  color: #171717;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}

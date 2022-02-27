@@ -22,9 +22,10 @@ export default function Home() {
         url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
       </style> */}
 
-      {/* <div className={styles.projectStatus}>🚧 Work In Progress. 🚧</div> */}
+      <div className={styles.projectStatus}>🚧 Work In Progress. 🚧</div>
 
       <div className={styles2.titleSection}>
+        <div className={styles2.newTag}>BRAND NEW PROJECT</div>
         <div className={styles2.titlesectionContent}>
           <Image src="/wave.svg" alt="Wave image" width={80} height={80} />
           <h3>Welcome to Easemoji</h3>
@@ -110,7 +111,7 @@ export default function Home() {
       </div>
 
       <div className={styles2.headingContainer}>
-        <h3 id="smileys">The Smileys</h3>
+        <h3 id="smileys">22 Smileys</h3>
       </div>
 
       <div className={styles_smileys.smileyDiv}>
@@ -216,7 +217,6 @@ export default function Home() {
         </ul>
 
         <ul>
-          <span></span>
           <li
             id="emoji12"
             onClick={() => {
@@ -279,6 +279,42 @@ export default function Home() {
           >
             😚
           </li>
+          <span></span>
+          <li
+            id="emoji19"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji19.textContent);
+            }}
+          >
+            🙂
+          </li>
+          <span></span>
+          <li
+            id="emoji20"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji20.textContent);
+            }}
+          >
+            🤗
+          </li>
+          <span></span>
+          <li
+            id="emoji21"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji21.textContent);
+            }}
+          >
+            🤩
+          </li>
+          <span></span>
+          <li
+            id="emoji22"
+            onClick={() => {
+              navigator.clipboard.writeText(emoji22.textContent);
+            }}
+          >
+            🤔
+          </li>
         </ul>
       </div>
       {/* <main className={styles.main}>
@@ -322,7 +358,7 @@ export default function Home() {
         </div>
       </main> */}
 
-      <footer className={styles.footer}>
+      {/* <footer className={styles.footer}>
         <p>
           Star the project on{" "}
           <Link href="https://github.com/AnadyaNair/easemoji-app">
@@ -331,7 +367,7 @@ export default function Home() {
           and do leave a review!
         </p>
         <br />
-        {/* <a
+        <a
           href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           target="_blank"
           rel="noopener noreferrer"
@@ -340,8 +376,8 @@ export default function Home() {
           <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
-        </a> */}
-      </footer>
+        </a>
+      </footer> */}
     </div>
   );
 }
